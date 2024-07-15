@@ -1,0 +1,221 @@
+// Fuentes
+@font-face {
+    font-family: "Inter";
+    src: url("..//assets/fonts/InterFont.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Akira";
+    src: url("..//assets/fonts/AkiraFont.otf") format("truetype");
+  }
+  
+  // Colores primarios
+  
+  $blue-dark: #002b54;
+  $green-light: #00dcb5;
+  $red-light: #ff7674;
+  
+  // Colores secundarios
+  
+  $blue-light: #0f9cc5;
+  $yellow-dark: #ffac39;
+  $red-dark: #be2f5a;
+  $green-dark: #219653;
+  
+  // Colores textos
+  
+  $text-dark: #2b2b2b;
+  $grey-dark: #959595;
+  $grey-medium: #98a1b3;
+  $grey-medium-light: #e1e2e6;
+  $grey-light: #f7f8fa;
+  
+  // Colores de estados
+  
+  $state-info: $blue-light;
+  $state-success: $green-dark;
+  $state-danger: $red-dark;
+  $state-warning: $yellow-dark;
+  
+  // Clases generales
+  
+  body {
+    font-family: "Inter", sans-serif !important;
+  }
+  
+  #root{
+    font-family: "Inter", sans-serif !important;
+  }
+
+  .text-vitxo{
+    font-family: "Inter", sans-serif !important;
+  }
+  
+  .bg-dark-blue {
+    background: $blue-dark;
+  }
+  
+  .bg-green-light {
+    background: $green-light;
+  }
+  
+  .bg-grey-medium {
+    background: $grey-medium-light;
+  }
+  
+  .bg-grey-light {
+    background: $grey-light;
+  }
+  
+  .text-dark {
+    color: $text-dark;
+  }
+  
+  .text-dark-blue {
+    color: $blue-dark;
+  }
+  
+  .text-light-red{
+    color: $red-light;
+  }
+  
+  .text-dark-red{
+    color: $red-dark;
+  }
+  
+  .grey-dark {
+    color: $grey-dark;
+  }
+  
+  .grey-medium {
+    color: $grey-medium;
+  }
+  
+  .grey-medium-light {
+    color: $grey-medium-light;
+  }
+  
+  .grey-light {
+    color: $grey-light;
+  }
+  
+  .green-light {
+    color: #03b253;
+  }
+  
+  .text-title-font {
+    font-size: 40px;
+  }
+  
+  .text-fs-small {
+    font-size: 8px;
+  }
+  
+  .text-fs-medium {
+    font-size: 12px;
+  }
+  
+  .text-fs-large {
+    font-size: 16px;
+  }
+  
+  .text-fs-extra-large {
+    font-size: 20px;
+  }
+  
+  .text-fs-extra-extra-large {
+    font-size: 30px;
+  }
+  
+  .text-title-principal {
+    font-family: "Akira", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .button-red-underline {
+    border: 2px solid $red-light;
+    background: transparent;
+    color: $red-light;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 10px;
+    &.disabled {
+      background: $grey-medium !important;
+      border: 2px solid $grey-medium !important;
+    }
+  }
+  
+  .button-red {
+    border: 2px solid $red-light;
+    background: $red-light;
+    color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 10px;
+    &.disabled {
+      background: $grey-medium !important;
+      border: 2px solid $grey-medium !important;
+    }
+    &:hover {
+      background: $red-light !important;
+      color: white !important;
+    }
+  }
+  
+  .button-blue {
+    border: 2px solid $blue-dark;
+    background: $blue-dark !important;
+    color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 10px;
+    &.disabled {
+      background: $grey-medium !important;
+      border: 2px solid $grey-medium !important;
+    }
+  }
+  
+  .h-img-register {
+    max-height: 950px;
+  }
+  
+  .h-block {
+    max-height: 690px;
+  }
+  .slick-dots li button::before {
+    font-size: 12px;
+    border: 2px solid white;
+    padding: 2px;
+    content: "";
+    border-radius: 20px;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 0.75;
+    color: white;
+    background-color: white;
+  }
+  
+  .contenedor-step-works{  
+    transition: all 0.1s ease;
+    border: 2px solid transparent;
+    color: $blue-dark;
+    &:hover{
+      border: 2px solid #FF7674;
+      color: $red-light;
+    }
+  }
+  
+  .cursor-pointer{
+    cursor: pointer;
+  }
+  
+  .focus-none{
+    outline: none;
+  }
+  
+  .line-100{
+    height: 1px;
+    background: $blue-dark;
+  }
