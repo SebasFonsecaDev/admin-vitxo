@@ -43,6 +43,16 @@ const MainRoutes = {
         }
       ]
     },
+    {
+      path: '*',
+      element: <DashboardLayout />,
+      children: [
+        {
+          path: '*',
+          element: <>Error 404</>
+        }
+      ]
+    },
   ]
 };
 
